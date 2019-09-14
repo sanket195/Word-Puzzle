@@ -1,0 +1,22 @@
+
+/--------------------------------------------------
+1. 5*5 grid i.e rows r = 5 and column c = 5
+/--------------------------------------------------
+number of rows     = 5
+number of columns     = 5
+path of file containing words     = words.txt
+[['f', 's', 'h', 'h', 'd'], ['o', 'b', 's', 'w', 'g'], ['t', 'f', 'd', 's', 'z'], ['u', 'c', 'm', 'b', 'c'], ['q', 'x', 'l', 'e', 't']]
+
+
+Time in sec:  0.0016558930000000194
+Resultant words are:  ['fob', 'fobs', 'sh', 'so', 'sob', 'sobs', 'sot', 'soft', 'of', 'oft', 'bosh', 'boss', 'gs', 'to', 'toss', 'tofu', 'tux', 'cut', 'ms', 'me', 'met', 'be', 'bet', 'cs', 'let', 'em', 'ems', 'elm', 'elms']
+
+
+
+/--------------------------------------------------
+2. If rows or column values are not integer values
+/--------------------------------------------------
+C:\Users\Sanket Sonawane\PycharmProjects\WordPuzzle>python word_search.py -r a -c 4 -f words.txt
+usage: word_search.py [-h] [-r ROWS] [-c COLUMNS] [-f FILEPATH]
+word_search.py: error: argument -r: invalid int value: 'a'
+/--------------------------------------------------
